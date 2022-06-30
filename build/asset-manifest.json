@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ArlandMv/FireIoT-frontend/static/css/main.364314cb.css",
+    "main.js": "/ArlandMv/FireIoT-frontend/static/js/main.469c8918.js",
+    "static/js/787.966f2029.chunk.js": "/ArlandMv/FireIoT-frontend/static/js/787.966f2029.chunk.js",
+    "index.html": "/ArlandMv/FireIoT-frontend/index.html",
+    "main.364314cb.css.map": "/ArlandMv/FireIoT-frontend/static/css/main.364314cb.css.map",
+    "main.469c8918.js.map": "/ArlandMv/FireIoT-frontend/static/js/main.469c8918.js.map",
+    "787.966f2029.chunk.js.map": "/ArlandMv/FireIoT-frontend/static/js/787.966f2029.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.364314cb.css",
+    "static/js/main.469c8918.js"
+  ]
+}
