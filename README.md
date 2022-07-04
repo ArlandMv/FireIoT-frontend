@@ -1,8 +1,10 @@
 # FireIoT-frontend
 
-![Arland](https://ibb.co/xCMSX85)
+![Arland](https://i.ibb.co/Pm5ZFzC/Twitter-In-stream-Picture.png)
 
-## It shows a dashboard displaying data collected from IoT devices.
+![Arquitecture](https://i.ibb.co/QKhYRWH/Fire-Io-Tarchitecture.png)
+
+## Realtime app to privatetly display data from IoT into a dashboard.
 
 This project is an example to showcase the features of [Firebase](https://youtu.be/XHvWx1F3S4A) and show how anyone can set up their own infraestructure for IoT devices on the [free tier](https://firebase.google.com/pricing).
 
@@ -26,7 +28,7 @@ If you found an error or thinkthought of an improvement, you are more than welco
 
 - [Semantic versioning](https://github.com/google-github-actions/release-please-action) needs to be added.
 
-### Connect with me through [twitter](), [gmail]() or https://github.com/ArlandMv/FireIoT-frontend/issues
+### Connect with me through [twitter](https://twitter.com/arland_mv), [linkedin](https://www.linkedin.com/in/arland-michelena/) or https://github.com/ArlandMv/FireIoT-frontend/issues
 
 activities:
 
