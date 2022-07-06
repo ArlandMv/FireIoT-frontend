@@ -1,23 +1,23 @@
-import { useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
-import { useAuth } from "../context/AuthContext";
-import { Alert } from "./Alert";
+import { useState } from 'react';
+import { Link, useNavigate } from 'react-router-dom';
+import { useAuth } from '../context/AuthContext';
+import { Alert } from './Alert';
 
 export function Login() {
   const [user, setUser] = useState({
-    email: "",
-    password: "",
+    email: '',
+    password: '',
   });
   const { login, loginWithGoogle, resetPassword } = useAuth();
-  const [error, setError] = useState("");
+  const [error, setError] = useState('');
   const navigate = useNavigate();
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    setError("");
+    setError('');
     try {
       await login(user.email, user.password);
-      navigate("/");
+      navigate('/');
     } catch (error) {
       setError(error.message);
     }
@@ -29,7 +29,7 @@ export function Login() {
   const handleGoogleSignin = async () => {
     try {
       await loginWithGoogle();
-      navigate("/");
+      navigate('/');
     } catch (error) {
       setError(error.message);
     }
@@ -37,10 +37,10 @@ export function Login() {
 
   const handleResetPassword = async (e) => {
     e.preventDefault();
-    if (!user.email) return setError("Write an email to reset password");
+    if (!user.email) return setError('Write an email to reset password');
     try {
       await resetPassword(user.email);
-      setError('We sent you an email. Check your inbox')
+      setError('We sent you an email. Check your inbox');
     } catch (error) {
       setError(error.message);
     }

@@ -1,7 +1,7 @@
-import { initializeApp } from "firebase/app";
-import { getAuth } from "firebase/auth";
+import { initializeApp } from 'firebase/app';
+import { getAuth } from 'firebase/auth';
 // TODO: Add SDKs for Firebase products that you want to use
-import { getAnalytics } from "firebase/analytics";
+import { getAnalytics } from 'firebase/analytics';
 
 // https://firebase.google.com/docs/web/setup#available-libraries
 
@@ -14,7 +14,7 @@ const firebaseConfig = {
   storageBucket: `${process.env.REACT_APP_STORAGE_BUCKET}`,
   messagingSenderId: `${process.env.REACT_APP_MESSAGING_SENDER_ID}`,
   appId: `${process.env.REACT_APP_STORAGE_BUCKET}`,
-  measurementId: `${process.env.REACT_APP_STORAGE_BUCKET}`
+  measurementId: `${process.env.REACT_APP_STORAGE_BUCKET}`,
 };
 
 // Initialize Firebase

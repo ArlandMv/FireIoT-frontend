@@ -1,4 +1,4 @@
-import { createContext, useContext, useEffect, useState } from "react";
+import { createContext, useContext, useEffect, useState } from 'react';
 import {
   createUserWithEmailAndPassword,
   signInWithEmailAndPassword,
@@ -7,14 +7,14 @@ import {
   GoogleAuthProvider,
   signInWithPopup,
   sendPasswordResetEmail,
-} from "firebase/auth";
-import { auth } from "../firebase";
+} from 'firebase/auth';
+import { auth } from '../firebase';
 
 const authContext = createContext();
 
 export const useAuth = () => {
   const context = useContext(authContext);
-  if (!context) throw new Error("There is no Auth provider");
+  if (!context) throw new Error('There is no Auth provider');
   return context;
 };
 

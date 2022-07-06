@@ -1,15 +1,15 @@
-import React from "react";
-import { Route, Routes } from "react-router-dom";
-import { Login } from "./components/Login";
-import { Register } from "./components/Register";
-import { Home } from "./components/Home";
-import { ProtectedRoute } from "./components/ProtectedRoute";
+import React from 'react';
+import { Route, Routes } from 'react-router-dom';
+import { Login } from './components/Login';
+import { Register } from './components/Register';
+import { Home } from './components/Home';
+import { ProtectedRoute } from './components/ProtectedRoute';
 
-import { AuthProvider } from "./context/AuthContext";
+import { AuthProvider } from './context/AuthContext';
 
 function App() {
   return (
-    <div className="bg-indigo-200 h-screen flex text-white">
+    <div className="text-white bg-indigo-200 h-screen flex">
       <AuthProvider>
         <Routes>
           <Route path="/login" element={<Login />} />
